@@ -27,9 +27,9 @@ async def cancel(event):
 async def start(event):
   await event.reply("**Rc Tag Bot**, Qrupda və ya kanalda demək olar ki, istənilən üzvü qeyd edə bilərəm ★\nƏtraflı məlumat üçün **/help** üzərinə klikləyin.",
                     buttons=(
-                      [Button.url('🌟 Meni Bir Gruba Ekle', 'http://t.me/TaggerAzeRoBot?startgroup=a'),
-                      Button.url('📣 Sohbet Qrupumuz', 'https://t.me/TheLeonChat'),
-                      Button.url('🧑‍💻 Sahibim', 'https://t.me/slmbenvusal')]
+                      [Button.url('🌟 Məni Bir Qurupa Əlavə Edin!', 'http://t.me/DTOtagbot?startgroup=a'),
+                      Button.url('🇦🇿 DTÖ Team', 'https://t.me/DTOteam'),
+                      Button.url('🧑‍💻 Sahibim', 'https://t.me/Vusaldeveloper')]
                     ),
                     link_preview=False
                    )
@@ -38,9 +38,9 @@ async def help(event):
   helptext = "**WG Tag botunun Yardım Menyu**\n\nƏmr: /tag \n Bu emri başqalarına söylemek istediyiniz metnle birlikdw istifade ede bilersiniz.  \n`Nümune: /tag sabahınız xeyir!` \nBu emrden cavab olaraq istifade ede bilərsiniz.  istənilən mesaj Bot istifadəçiləri cavablandırılan mesaja tag edecek /dayan- bu emrle prosesi dayandıra bilərsiniz @piramidasohbet Söhbet Kanalımıza gelmeyi unutmayın"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Meni Bir Gruba Ekle', 'https://t.me/LKtaggerbot?startgroup=a'),
-                       Button.url('📣 Sohbet Qrupumuz', 'https://t.me/LKsohbet'),
-                      Button.url('🧑‍💻 Sahibim', 'https://t.me/Vusalldidaa')]
+                      [Button.url('🌟Məni Bir Qurupa Əlavə Edin!', 'http://t.me/DTOtagbotstartgroup=a'),
+                       Button.url('🇦🇿 DTÖ Team', 'https://t.me/DTOteam'),
+                      Button.url('🧑‍💻 Sahibim', 'https://t.me/Vusaldeveloper')]
                     ),
                     link_preview=False
                    )
@@ -103,5 +103,5 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-print(">> Bot isdeyir merak eleme 🚀 @Vusalldidaa Informasia Ala bilersiz <<")
+print(">> Bot Uğurla İşləyir Narahat olma 🚀 @Vusalldidaa Informasia Ala bilersiz <<")
 client.run_until_disconnected()
